@@ -1,0 +1,15 @@
+PODS:
+  - SerializedUser (1.0.0):
+    - SSKeychain
+  - SSKeychain (1.4.1)
+
+DEPENDENCIES:
+  - SerializedUser (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  SerializedUser: d0ff2b3d78ef854efb1a28c5b42bf6bbdbf232ae
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+
+PODFILE CHECKSUM: d1d17f65d6bec2e0b828e021f4bb0e0d3ba93966
+
+COCOAPODS: 1.2.0.beta.1

@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017482EBE9B53DB7BC7AE8ACA2A346C0 /* SerializedUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D43C975EB2CBFA823E3745CF4CDB /* SerializedUser-dummy.m */; };
+		34E0B8E2C0CBD703127A67EE8B5880E6 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B700C92CA6C914A8ED11C371B9A67A82 /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		37560239CF4F2188CA319AAB6692D363 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */; };
+		52F9358E50FEE3E5804A2E79BA3BEB52 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 8859BEAACECBB632E93783FC15BDAF49 /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F12AB7E96AEA954F3DD669FF796DAD0 /* SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4CF27FD41F615FE01AA91479AC322B /* SSKeychain-dummy.m */; };
+		62935144C8AF4AAD173E46C20C116FF9 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0382C5DF728E7120265B4D42C4449 /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6FDA4EBC31E3DF21322FCFE61AA17260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		9353D11370B0BAB8DE632DAA47E3D935 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = E470CE19A0C1B528ECEA711729B80F67 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0BE1258F4928C1E05986EC7EC15868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		A5B594F59A16F453CDC9F182E6C90AF7 /* SerializedUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DA816667591A1F1B2D97EACE2F1653 /* SerializedUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3E646519C4305340B8009749BAF76D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		CF10B6DEF6EBE18924151275EE3B5BD2 /* Pods-加密-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCB21702AB73BEB22A65AB22597A7C /* Pods-加密-dummy.m */; };
+		EFDB73F9DE414AFE3583E2A460EB197B /* SerializedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5FF54AACD9E9403E2AE9AD86ECABD5 /* SerializedUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96DDAFB6FC962CB83299DAF2588E8B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1C74309F7B65B008F3A33E61A15800;
+			remoteInfo = SSKeychain;
+		};
+		B8F6C062FAE6867D2BD49EDF5DDFC876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1C74309F7B65B008F3A33E61A15800;
+			remoteInfo = SSKeychain;
+		};
+		EC821915FD3DB15D3FFF9E973682A6E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450301ACB590AEE9C82892C53E26F022;
+			remoteInfo = SerializedUser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09575D5D502BE4705159A221CA4E3539 /* Pods-加密-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-加密-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FCCB21702AB73BEB22A65AB22597A7C /* Pods-加密-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-加密-dummy.m"; sourceTree = "<group>"; };
+		15B0382C5DF728E7120265B4D42C4449 /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = Sources/SSKeychain.m; sourceTree = "<group>"; };
+		23ACAF14972B59D18FD69509ECD23ECA /* Pods-加密.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-加密.release.xcconfig"; sourceTree = "<group>"; };
+		256B92A5AD9AC1DC929CF8D995E2288F /* Pods-加密.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-加密.debug.xcconfig"; sourceTree = "<group>"; };
+		372A6A5B7A7314D2C9A22E6B9EF9829B /* SerializedUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SerializedUser-prefix.pch"; sourceTree = "<group>"; };
+		465D546234A032C427415BE9EEA497ED /* Pods-加密-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-加密-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5195EE8E346E1C8FA53CF5B76C0C32F6 /* libPods-加密.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-加密.a"; path = "libPods-加密.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74432DF04414262519953B21F20C047B /* SerializedUser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SerializedUser.xcconfig; sourceTree = "<group>"; };
+		78BDC3A6001357F1589E703A64204183 /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		8859BEAACECBB632E93783FC15BDAF49 /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = Sources/SSKeychainQuery.h; sourceTree = "<group>"; };
+		8D61F325403BCEA39A181C512D761DE0 /* SSKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SSKeychain.bundle; path = Support/SSKeychain.bundle; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A5D79E4B5B741A7559D90EF2190407 /* SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSKeychain.xcconfig; sourceTree = "<group>"; };
+		A018CD668E890B625897AE0A4E4A542C /* libSerializedUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSerializedUser.a; path = libSerializedUser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DA816667591A1F1B2D97EACE2F1653 /* SerializedUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerializedUser.h; path = SerializedUser/SerializedUser.h; sourceTree = "<group>"; };
+		A2576CA08D1871B3A4A5D402334F5F4A /* Pods-加密-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-加密-resources.sh"; sourceTree = "<group>"; };
+		B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B700C92CA6C914A8ED11C371B9A67A82 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = Sources/SSKeychainQuery.m; sourceTree = "<group>"; };
+		C73A53D80112E8B278E14692EC84852B /* libSSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSSKeychain.a; path = libSSKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CC5FF54AACD9E9403E2AE9AD86ECABD5 /* SerializedUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SerializedUser.m; path = SerializedUser/SerializedUser.m; sourceTree = "<group>"; };
+		E470CE19A0C1B528ECEA711729B80F67 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = Sources/SSKeychain.h; sourceTree = "<group>"; };
+		E5E689C03E80CD9EAB00EB6B47E0E39E /* Pods-加密-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-加密-frameworks.sh"; sourceTree = "<group>"; };
+		E9E6D43C975EB2CBFA823E3745CF4CDB /* SerializedUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SerializedUser-dummy.m"; sourceTree = "<group>"; };
+		FE4CF27FD41F615FE01AA91479AC322B /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0746B650BCC023750B444820C444651A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E646519C4305340B8009749BAF76D5 /* Foundation.framework in Frameworks */,
+				37560239CF4F2188CA319AAB6692D363 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312AAC405152054DFBF7864020C0DCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0BE1258F4928C1E05986EC7EC15868 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11CEEF32A9E14EA5C7FD334A4DDE6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDA4EBC31E3DF21322FCFE61AA17260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5F9D6BA1621C2A35588C99B92E4E46 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				E470CE19A0C1B528ECEA711729B80F67 /* SSKeychain.h */,
+				15B0382C5DF728E7120265B4D42C4449 /* SSKeychain.m */,
+				8859BEAACECBB632E93783FC15BDAF49 /* SSKeychainQuery.h */,
+				B700C92CA6C914A8ED11C371B9A67A82 /* SSKeychainQuery.m */,
+				BDEBD558DC1F510BF5E0FB6DF82376C2 /* Resources */,
+				A162B74D0651A2354DFF9B9C67D8A403 /* Support Files */,
+			);
+			name = SSKeychain;
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		1AE260DE2440899C62BC45C294D7FFD8 /* Pods-加密 */ = {
+			isa = PBXGroup;
+			children = (
+				465D546234A032C427415BE9EEA497ED /* Pods-加密-acknowledgements.markdown */,
+				09575D5D502BE4705159A221CA4E3539 /* Pods-加密-acknowledgements.plist */,
+				0FCCB21702AB73BEB22A65AB22597A7C /* Pods-加密-dummy.m */,
+				E5E689C03E80CD9EAB00EB6B47E0E39E /* Pods-加密-frameworks.sh */,
+				A2576CA08D1871B3A4A5D402334F5F4A /* Pods-加密-resources.sh */,
+				256B92A5AD9AC1DC929CF8D995E2288F /* Pods-加密.debug.xcconfig */,
+				23ACAF14972B59D18FD69509ECD23ECA /* Pods-加密.release.xcconfig */,
+			);
+			name = "Pods-加密";
+			path = "Target Support Files/Pods-加密";
+			sourceTree = "<group>";
+		};
+		27598F24C3708093E2894C195906485F /* SerializedUser */ = {
+			isa = PBXGroup;
+			children = (
+				A1DA816667591A1F1B2D97EACE2F1653 /* SerializedUser.h */,
+				CC5FF54AACD9E9403E2AE9AD86ECABD5 /* SerializedUser.m */,
+				43AB79B9FCD69E1750C83BA293357E1D /* Support Files */,
+			);
+			name = SerializedUser;
+			path = SerializedUser;
+			sourceTree = "<group>";
+		};
+		2E339049816F198EB76DEA4264EF8374 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */,
+				CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E339049816F198EB76DEA4264EF8374 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43AB79B9FCD69E1750C83BA293357E1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74432DF04414262519953B21F20C047B /* SerializedUser.xcconfig */,
+				E9E6D43C975EB2CBFA823E3745CF4CDB /* SerializedUser-dummy.m */,
+				372A6A5B7A7314D2C9A22E6B9EF9829B /* SerializedUser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SerializedUser";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BC2BEFF16EFA977367D3905832758B9E /* Pods */,
+				E720CB655DD63399FA0933AA4746DFD2 /* Products */,
+				BAFCAB26474AA43E0E0155A9922F17BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A162B74D0651A2354DFF9B9C67D8A403 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A5D79E4B5B741A7559D90EF2190407 /* SSKeychain.xcconfig */,
+				FE4CF27FD41F615FE01AA91479AC322B /* SSKeychain-dummy.m */,
+				78BDC3A6001357F1589E703A64204183 /* SSKeychain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSKeychain";
+			sourceTree = "<group>";
+		};
+		BAFCAB26474AA43E0E0155A9922F17BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE260DE2440899C62BC45C294D7FFD8 /* Pods-加密 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC2BEFF16EFA977367D3905832758B9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27598F24C3708093E2894C195906485F /* SerializedUser */,
+				0E5F9D6BA1621C2A35588C99B92E4E46 /* SSKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDEBD558DC1F510BF5E0FB6DF82376C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D61F325403BCEA39A181C512D761DE0 /* SSKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E720CB655DD63399FA0933AA4746DFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5195EE8E346E1C8FA53CF5B76C0C32F6 /* libPods-加密.a */,
+				A018CD668E890B625897AE0A4E4A542C /* libSerializedUser.a */,
+				C73A53D80112E8B278E14692EC84852B /* libSSKeychain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4399ABCDC2C5C71EE7E6BCD7839852F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B594F59A16F453CDC9F182E6C90AF7 /* SerializedUser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1387F6772A47DD0FB79AF93D5A548FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9353D11370B0BAB8DE632DAA47E3D935 /* SSKeychain.h in Headers */,
+				52F9358E50FEE3E5804A2E79BA3BEB52 /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		098E56FA57DB25B653038FA28BC0DDB8 /* Pods-加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EC44E333841C232BD9162851391EBC /* Build configuration list for PBXNativeTarget "Pods-加密" */;
+			buildPhases = (
+				E430631BB23E57BCC3C7B481C5DEC4B4 /* Sources */,
+				E11CEEF32A9E14EA5C7FD334A4DDE6E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B176F90FE297E7F77DFA0CBC7E17E7 /* PBXTargetDependency */,
+				16E111D8D178DD4E598AD29793A0774F /* PBXTargetDependency */,
+			);
+			name = "Pods-加密";
+			productName = "Pods-加密";
+			productReference = 5195EE8E346E1C8FA53CF5B76C0C32F6 /* libPods-加密.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		450301ACB590AEE9C82892C53E26F022 /* SerializedUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6132A8E4796ECC16F14BF13935A88A15 /* Build configuration list for PBXNativeTarget "SerializedUser" */;
+			buildPhases = (
+				C424F32E7744F0DE4F5CC80B36F5EA49 /* Sources */,
+				312AAC405152054DFBF7864020C0DCDB /* Frameworks */,
+				4399ABCDC2C5C71EE7E6BCD7839852F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A68FAEEF99DEDDB2446F6A3C6BE58DF5 /* PBXTargetDependency */,
+			);
+			name = SerializedUser;
+			productName = SerializedUser;
+			productReference = A018CD668E890B625897AE0A4E4A542C /* libSerializedUser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4D1C74309F7B65B008F3A33E61A15800 /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3396301118D8CAC18C8307DB31C8CC /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				193EDB3CE1EF401807CBFD03D6D26B27 /* Sources */,
+				0746B650BCC023750B444820C444651A /* Frameworks */,
+				F1387F6772A47DD0FB79AF93D5A548FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = C73A53D80112E8B278E14692EC84852B /* libSSKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E720CB655DD63399FA0933AA4746DFD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				098E56FA57DB25B653038FA28BC0DDB8 /* Pods-加密 */,
+				450301ACB590AEE9C82892C53E26F022 /* SerializedUser */,
+				4D1C74309F7B65B008F3A33E61A15800 /* SSKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		193EDB3CE1EF401807CBFD03D6D26B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F12AB7E96AEA954F3DD669FF796DAD0 /* SSKeychain-dummy.m in Sources */,
+				62935144C8AF4AAD173E46C20C116FF9 /* SSKeychain.m in Sources */,
+				34E0B8E2C0CBD703127A67EE8B5880E6 /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C424F32E7744F0DE4F5CC80B36F5EA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017482EBE9B53DB7BC7AE8ACA2A346C0 /* SerializedUser-dummy.m in Sources */,
+				EFDB73F9DE414AFE3583E2A460EB197B /* SerializedUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E430631BB23E57BCC3C7B481C5DEC4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10B6DEF6EBE18924151275EE3B5BD2 /* Pods-加密-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09B176F90FE297E7F77DFA0CBC7E17E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = 4D1C74309F7B65B008F3A33E61A15800 /* SSKeychain */;
+			targetProxy = B8F6C062FAE6867D2BD49EDF5DDFC876 /* PBXContainerItemProxy */;
+		};
+		16E111D8D178DD4E598AD29793A0774F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SerializedUser;
+			target = 450301ACB590AEE9C82892C53E26F022 /* SerializedUser */;
+			targetProxy = EC821915FD3DB15D3FFF9E973682A6E5 /* PBXContainerItemProxy */;
+		};
+		A68FAEEF99DEDDB2446F6A3C6BE58DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = 4D1C74309F7B65B008F3A33E61A15800 /* SSKeychain */;
+			targetProxy = 96DDAFB6FC962CB83299DAF2588E8B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9944E9834A24548E8727B442F868340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ACAF14972B59D18FD69509ECD23ECA /* Pods-加密.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C1C3CEA0D57B3798D0A44FBFDDDA9A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A5D79E4B5B741A7559D90EF2190407 /* SSKeychain.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1EF0780DEA0790CA6968A601ABCB9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A5D79E4B5B741A7559D90EF2190407 /* SSKeychain.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC7B4E746AED54E423BA0AC52B7D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74432DF04414262519953B21F20C047B /* SerializedUser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SerializedUser/SerializedUser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB4A55E7241742CC6751CA4E4F17BBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256B92A5AD9AC1DC929CF8D995E2288F /* Pods-加密.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FDC331A2524BAB1A738B2EFC0888DEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74432DF04414262519953B21F20C047B /* SerializedUser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SerializedUser/SerializedUser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6132A8E4796ECC16F14BF13935A88A15 /* Build configuration list for PBXNativeTarget "SerializedUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7B4E746AED54E423BA0AC52B7D4B3E /* Debug */,
+				FDC331A2524BAB1A738B2EFC0888DEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EC44E333841C232BD9162851391EBC /* Build configuration list for PBXNativeTarget "Pods-加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4A55E7241742CC6751CA4E4F17BBE1 /* Debug */,
+				9944E9834A24548E8727B442F868340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3396301118D8CAC18C8307DB31C8CC /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C3CEA0D57B3798D0A44FBFDDDA9A5C /* Debug */,
+				E1EF0780DEA0790CA6968A601ABCB9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
